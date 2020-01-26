@@ -1,0 +1,6 @@
+.pyc
+.DS_Sore
+__pycache__/
+db.sqlite3
+*.key
+thumbs.db
