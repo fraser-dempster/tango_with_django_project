@@ -15,8 +15,8 @@
             <strong>{{ boldmessage }}</strong>
         </div>
 
-        <h2>Most Liked Categories</h2>
         <div>
+            <h2>Most Liked Categories</h2>
         {% if categories %}
             <ul>
             {% for category in categories %}
@@ -28,8 +28,8 @@
         {% endif %}
         </div>
 
-        <h2>Most Viewed Pages</h2>
         <div>
+            <h2>Most Viewed Pages</h2>
         {% if pages %}
             <ul>
             {% for page in pages %}
@@ -43,6 +43,7 @@
 
         <div>
             <a href="/rango/about/">About</a><br />
+            <a href="/rango/add_category/">Add a New Category</a><br />
             <img src="{% static 'images/rango.jpg' %}"
                  alt="Picture of Rango" />
         </div>
